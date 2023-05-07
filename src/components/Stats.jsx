@@ -4,7 +4,7 @@ import { stats } from "../constants/index";
 function Stats() {
   return (
     <section
-      className={`flex justify-around items-center flex-row  flex-warp mb:mb-20 md-6`}
+      className={`flex justify-around items-center flex-row  flex-warp mb:mb-20 md-10`}
     >
       {stats.map((stat, index) => (
         <div
