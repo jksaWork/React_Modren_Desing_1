@@ -6,6 +6,7 @@ import {
   Business,
   Billings,
   BillingCard,
+  TestMon,
 } from "./components";
 
 const App = () => (
@@ -27,6 +28,7 @@ const App = () => (
         <Business />
         <Billings />
         <BillingCard />
+        <TestMon />
       </div>
     </div>
   </div>
