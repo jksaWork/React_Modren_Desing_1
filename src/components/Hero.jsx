@@ -12,7 +12,7 @@ function Hero() {
         className={`${style.flexStart}  flex-1  flex-col xl:p-0 sm:px-16 px-6`}
       >
         {/* Discount Area */}
-        <div className="flex flex-row md:flex-col items-center bg-discount-gradient rounded-[10px] py-[3px] px-[6px] mb-2">
+        <div className="flex flex-row  items-center bg-discount-gradient rounded-[10px] py-[3px] px-[6px] mb-2">
           <img src={discount} alt="dicount" className="w-[32px] h-[32px]" />
           <p className={`${style.paragraph} ml-2`}>
             {" "}
