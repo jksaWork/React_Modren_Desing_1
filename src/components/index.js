@@ -5,4 +5,16 @@ import Business from "./Business";
 import Billings from "./Billings";
 import BillingCard from "./BillingCard";
 import TestMon from "./TestMon";
-export { Navbar, TestMon, Hero, Stats, Business, Billings, BillingCard };
+import Clients from "./Clients.jsx";
+import CAT from "./CAT";
+export {
+  Navbar,
+  TestMon,
+  Hero,
+  Clients,
+  Stats,
+  Business,
+  Billings,
+  BillingCard,
+  CAT,
+};

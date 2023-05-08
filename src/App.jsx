@@ -7,6 +7,8 @@ import {
   Billings,
   BillingCard,
   TestMon,
+  Clients,
+  CAT,
 } from "./components";
 
 const App = () => (
@@ -29,6 +31,8 @@ const App = () => (
         <Billings />
         <BillingCard />
         <TestMon />
+        <Clients />
+        <CAT />
       </div>
     </div>
   </div>
