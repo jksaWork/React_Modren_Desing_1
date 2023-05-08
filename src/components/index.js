@@ -7,6 +7,8 @@ import BillingCard from "./BillingCard";
 import TestMon from "./TestMon";
 import Clients from "./Clients.jsx";
 import CAT from "./CAT";
+import Footer from "./Footer";
+
 export {
   Navbar,
   TestMon,
@@ -17,4 +19,5 @@ export {
   Billings,
   BillingCard,
   CAT,
+  Footer,
 };

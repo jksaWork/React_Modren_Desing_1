@@ -9,6 +9,7 @@ import {
   TestMon,
   Clients,
   CAT,
+  Footer,
 } from "./components";
 
 const App = () => (
@@ -33,6 +34,7 @@ const App = () => (
         <TestMon />
         <Clients />
         <CAT />
+        <Footer />
       </div>
     </div>
   </div>

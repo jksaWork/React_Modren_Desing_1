@@ -5,7 +5,9 @@ import Button from "./Button";
 function CAT() {
   return (
     <div
-      class={`${style.flexCenter} justify-between ${style.padding} ${style.marginY} sm:flex-row flex-col `}
+      class={`${style.flexCenter} justify-between ${style.padding} ${style.marginY}
+        bg-black-gradient-2 rounded-[20px] box-shadow
+      sm:flex-row flex-col  mt-10 `}
     >
       <div className="flex flex-col flex-1">
         <h1 className={`${style.heading2}`}> Let’s try our service now!</h1>
