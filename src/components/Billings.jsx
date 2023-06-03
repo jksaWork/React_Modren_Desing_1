@@ -12,7 +12,6 @@ function Billings() {
       <div className="flex-1">
         <img
           src={bill}
-          alt=""
           className={`w-[100%] h-[100%] relative z-[5] sm:p-10 ${layout.sectionImgReverse}`}
           alt="billing"
         />
